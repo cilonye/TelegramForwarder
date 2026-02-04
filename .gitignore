@@ -40,3 +40,6 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.swp
+
+#utility script files
+chats_*

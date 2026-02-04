@@ -14,3 +14,26 @@ Optimized, event-driven, low-CPU
     Multi-destination forwarding
     Keyword filtering
     Auto-reconnect
+
+---
+
+## 6. Automatic Telegram Session Repair
+
+### Problem Solved
+- Corrupt `.session` files
+- Auth invalidation
+- Telegram-side disconnects
+
+### Behavior
+
+On startup:
+1. Attempt client.start()
+2. If session fails:
+   - Log error
+   - Delete session file
+   - Re-authenticate
+   - Continue without manual intervention
+
+This guarantees **self-healing authentication**.
+
+---
