@@ -1,0 +1,8 @@
+telegram:
+  source_chat_id: -1001234567890
+  destination_chat_ids:
+    - -1001111111111
+    - -1002222222222
+  keywords:
+    - btc
+    - eth

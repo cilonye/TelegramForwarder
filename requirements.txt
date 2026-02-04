@@ -1,0 +1,4 @@
+telethon
+cryptography
+python-dotenv
+pyyaml

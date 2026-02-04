@@ -1,0 +1,16 @@
+Core Application Files (Final State Summary)
+1. app/main.py
+Responsibilities
+    Load encrypted secrets
+    Load config (with validation)
+    Start forwarder
+    Handle SIGTERM / Ctrl+C gracefully
+    Update health status
+
+2. app/forwarder.py
+Optimized, event-driven, low-CPU
+    No polling
+    Telethon event handlers
+    Multi-destination forwarding
+    Keyword filtering
+    Auto-reconnect

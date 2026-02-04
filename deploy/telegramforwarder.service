@@ -1,0 +1,11 @@
+[Unit]
+Description=Telegram Forwarder
+After=network.target
+
+[Service]
+WorkingDirectory=/opt/TelegramForwarder
+ExecStart=/opt/TelegramForwarder/venv/bin/python app/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

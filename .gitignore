@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+*.log.*
+
+# Telegram session files
+session_*.session
+*.session-journal
+
+# Encrypted secrets
+.env
+secret.key
+
+# Config backups
+config.yaml.bak
+
+# Health check files
+health.status
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.swp
